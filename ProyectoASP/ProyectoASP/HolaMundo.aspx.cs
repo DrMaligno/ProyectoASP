@@ -13,5 +13,10 @@ namespace ProyectoASP
         {
 
         }
+
+        protected void btnBoton_Click(object sender, EventArgs e)
+        {
+            lblbEtiqueta.Text = "hola mundfo";
+        }
     }
 }
